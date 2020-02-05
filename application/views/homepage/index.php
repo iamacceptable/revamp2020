@@ -1,0 +1,17 @@
+<?php
+	$this->view('components/header');
+	$this->view('components/section_header');
+	$this->view('components/navbar');
+	$this->view('components/loader');
+	$this->view('homepage/slider');
+?>
+<section>
+	<?php
+		$this->view('homepage/dates');
+		$this->view('homepage/events');
+	?>
+</section>
+<?php
+	$this->view('components/section_footer');
+	$this->view('components/footer');
+?>
