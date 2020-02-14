@@ -2,21 +2,21 @@
     <div class="extra-container">
         <div class="row">
             <div class="col-lg-6 col-sm-6">
-                <a class="experience__thumb movein-ex--1">
-                    <img src="assets/images/uploads/events/revamp/vector/technical.png" alt="Technical">
+                <a href="<?= base_url();?>Events/revamp" class="experience__thumb movein-ex--1">
+                    <img src="<?= base_url();?>assets/images/uploads/events/vector/technical.png" alt="Technical">
                 </a>
             </div>
             <div class="col-lg-6 col-sm-6">
-                <a class="experience__thumb experience__thumb--right movein-ex--2">
-                    <img src="assets/images/uploads/events/revamp/vector/Cultural.png" alt="Cultural">
+                <a href="<?= base_url();?>Events/revamp" class="experience__thumb experience__thumb--right movein-ex--2">
+                    <img src="<?= base_url();?>assets/images/uploads/events/vector/cultural.png" alt="Cultural">
                 </a>
             </div>
         </div>
 
         <div class="row">
             <div class="col-xl-3 col-lg-4 col-sm-6">
-                <a class="experience__thumb experience__thumb--left movein-ex--3">
-                    <img src="assets/images/uploads/events/revamp/vector/Sports.png" alt="Sports">
+                <a href="<?= base_url();?>Events/infinito" class="experience__thumb experience__thumb--left movein-ex--3">
+                    <img src="<?= base_url();?>assets/images/uploads/events/vector/game.png" alt="Sports">
                 </a>
             </div>
             <div class="col-xl-6 col-lg-4 col-sm-12">
@@ -30,19 +30,17 @@
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-sm-6">
-                <a class="experience__thumb experience__thumb--middle movein-ex--4">
-                    <img src="assets/images/uploads/events/revamp/vector/Literary.png" alt="Literary">
+                <a href="<?= base_url();?>Events/revamp" class="experience__thumb experience__thumb--middle movein-ex--4">
+                    <img src="<?= base_url();?>assets/images/uploads/events/vector/literary.png" alt="Literary">
                 </a>
             </div>
         </div>
         <div class="row">
             <div class="col-xl-5">
-                <a class="experience__thumb experience__thumb--center movein-ex--5">
-                    <img src="assets/images/uploads/events/revamp/vector/Arts.png" alt="Arts">
+                <a href="<?= base_url();?>Events/revamp" class="experience__thumb experience__thumb--center movein-ex--5">
+                    <img src="<?= base_url();?>assets/images/uploads/events/vector/art.png" alt="Arts">
                 </a>
             </div>
         </div>
     </div>
-
-
 </div>

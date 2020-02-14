@@ -607,14 +607,14 @@ $(document).ready(function(){
 //-------------------------countdown timer--------------------------------------
 //---------------------------------------------------------------------------
     count_down('#CD');
-    count_down('#CD2');
+    //count_down('#CD2');
     function count_down($area){
         const second = 1000,
         minute = second * 60,
         hour = minute * 60,
         day = hour * 24;
     
-        let countDown = new Date('Feb 9, 2020 15:03:00').getTime(),
+        let countDown = new Date('Feb 27, 2020 09:00:00').getTime(),
         x = setInterval(function() {
     
         let now = new Date().getTime(),

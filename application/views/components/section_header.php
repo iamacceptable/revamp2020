@@ -22,7 +22,7 @@
             </div>
             <div class="position-fixed"></div>
             <div class="header__logo">
-                <a href="index.php"><img src="assets/images/logo.png" alt="logo"></a>
+                <a href="<?= base_url();?>"><img src="<?= base_url();?>assets/images/revamp.png" alt="logo"></a>
             </div>
         </div>
     </div>
